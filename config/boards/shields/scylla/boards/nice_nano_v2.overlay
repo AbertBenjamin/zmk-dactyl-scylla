@@ -1,25 +1,11 @@
 #include "../scylla.dtsi"
 
 
-
-
-
-/ {
-
-	&pwm0 {
-		status = "okay";
-		ch0-pin = <45>;
-		/* ch0-inverted; */
-	};
+&pwm0 {
+	status = "okay";
+	ch0-pin = <15>;
+	/* ch0-inverted; */
 };
-
-
-
-
-
-
-
-
 
 
 / {
@@ -27,7 +13,7 @@ backlight: pwmleds {
 		   compatible = "pwm-leds";
 		   label = "Backlight LEDs";
 		   pwm_led_0 {
-			   pwms = <&pwm0 45>;
+			   pwms = <&pwm0 15>;
 			   label = "Backlight LED 0";
 		   };
 	   };
@@ -38,6 +24,16 @@ backlight: pwmleds {
 	chosen {
 		zmk,backlight = &backlight;
 	};
+};
+/ {
+backlight: gpioleds {
+		   compatible = "gpio-leds";
+		   label = "Backlight LEDs";
+		   gpio_led_0 {
+			   gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>;
+			   label = "Backlight LED 0";
+		   };
+	   };
 };
 
 };
