@@ -16,11 +16,8 @@
 	gpio_led_0 {
 		gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>;
 		label = "Backlight LED 0";
-	}
-    }
-
-
-
+	};
+    };
 
     chosen {
         zmk,kscan = &kscan0;
