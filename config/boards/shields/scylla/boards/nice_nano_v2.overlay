@@ -6,7 +6,7 @@
 
 
 / {
-backlight: pwmleds {
+	backlight: pwmleds {
 		   compatible = "pwm-leds";
 		   label = "Backlight LEDs";
 		   pwm_led_0 {
@@ -14,9 +14,9 @@ backlight: pwmleds {
 			   label = "Backlight LED 0";
 		   };
 	   };
-	   {
-		   chosen {
-			   zmk,backlight = &backlight;
-		   };
-	   }:
+		   
+
+	   chosen {
+		   zmk,backlight = &backlight;
+	   };
 };
