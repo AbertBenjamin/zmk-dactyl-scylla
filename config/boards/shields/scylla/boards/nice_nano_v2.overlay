@@ -1,0 +1,5 @@
+&pwm0 {
+	status = "okay";
+	cho+-pin = <45>;
+
+}
