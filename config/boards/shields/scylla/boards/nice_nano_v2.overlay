@@ -36,4 +36,3 @@ backlight: gpioleds {
 	   };
 };
 
-};
