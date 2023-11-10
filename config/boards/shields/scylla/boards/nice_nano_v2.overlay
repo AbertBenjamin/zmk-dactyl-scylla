@@ -1,5 +1,3 @@
-#include "../scylla.dtsi"
-
 
 &pwm0 {
 	status = "okay";
@@ -25,4 +23,3 @@ backlight: pwmleds {
 		zmk,backlight = &backlight;
 	};
 };
-
