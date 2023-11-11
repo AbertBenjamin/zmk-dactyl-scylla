@@ -23,11 +23,9 @@ if SHIELD_SCYLLA_LEFT || SHIELD_SCYLLA_RIGHT
 
 config ZMK_SPLIT
 	default y
-	
-endif
-
 
 config ZMK_RGB_UNDERGLOW
 	select SK6812mini_STRIP
 	select SPI
 	
+endif
