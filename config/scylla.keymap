@@ -56,11 +56,11 @@
 
         SYM {
             bindings = <
-&trans      &trans  &trans  &trans  &trans     &trans        &trans         &trans      &trans     &trans  &trans     &trans
-&grave_spc  &trans  &trans  &trans  &trans     &caret_spc    &none          &trans      &trans     &trans  &trans     &trans
-&trans      &trans  &trans  &trans  &trans     &trans        &kp F6         &kp LEFT    &kp DOWN   &kp UP  &kp RIGHT  &trans
-&trans      &trans  &trans  &trans  &trans     &trans        &kp F12        &trans      &trans     &trans  &trans     &trans
-                            &trans  &kp SPACE  &trans        &kp BACKSPACE  &kp SPACE   &kp RIGHT
+&trans      &trans  &trans  &trans  &trans     &trans        &trans         &trans          &trans           &trans            &trans             &trans
+&grave_spc  &trans  &trans  &trans  &trans     &caret_spc    &none          &trans          &trans           &trans            &trans             &trans
+&trans      &trans  &trans  &trans  &trans     &trans        &kp F6         &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
+&trans      &trans  &trans  &trans  &trans     &trans        &kp F12        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+                            &trans  &kp SPACE  &trans        &kp BACKSPACE  &kp SPACE       &kp RIGHT
                                     &trans     &trans        &kp ESC        &kp RETURN
             >;
         };
