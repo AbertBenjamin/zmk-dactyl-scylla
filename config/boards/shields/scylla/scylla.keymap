@@ -7,6 +7,12 @@
 #define INT 2
 
 / {
+
+     &led_strip {
+         chain-length = <58>;
+	 chain-length = <29>;
+     }
+
      macros {
       sqt_spc: sqt_spc {
         label = "ZM_sqt_spc";
