@@ -61,12 +61,12 @@
 
         SYM {
             bindings = <
-&out OUT_TOG      &trans  &trans  &trans  &trans     &trans        &rgb_ug RGB_TOG  &trans          &trans           &trans            &trans       &out OUT_BLE
-&grave_spc  	  &trans  &trans  &trans  &trans     &caret_spc    &none            &trans          &trans           &trans            &trans             &trans
-&trans            &trans  &trans  &trans  &trans     &trans        &kp F6           &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
-&trans            &trans  &trans  &trans  &trans     &trans        &kp F12          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                            &trans  &kp SPACE  &trans        &kp BACKSPACE    &kp SPACE       &kp RIGHT
-                                    &trans     &trans        &kp ESC          &kp RETURN
+&out OUT_TOG     &rgb_ug RGB_COLOR_HSB(0,63,42)  &rgb_ug RGB_COLOR_HSB(54,54,43)  &rgb_ug RGB_COLOR_HSB(111,55,42)  &rgb_ug RGB_COLOR_HSB(230,56,49)  &rgb_ug RGB_COLOR_HSB(297,56,47)    &rgb_ug RGB_TOG  &trans          &trans           &trans            &trans             &out OUT_BLE
+&grave_spc       &trans                          &trans                           &trans                            &trans                            &caret_spc                          &none            &trans          &trans           &trans            &trans             &trans
+&rgb_ug RGB_TOG  &trans                          &trans                           &trans                            &trans                            &trans                              &kp F6           &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
+&trans           &trans                          &trans                           &trans                            &trans                            &trans                              &kp F12          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+                                                                                  &trans                            &kp SPACE                         &trans                              &kp BACKSPACE    &kp SPACE       &kp RIGHT
+                                                                                                                    &trans                            &trans                              &kp ESC          &kp RETURN
             >;
         };
 
