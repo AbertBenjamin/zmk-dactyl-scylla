@@ -61,21 +61,12 @@
 
         SYM {
             bindings = <
-<<<<<<< HEAD
-&out OUT_TOG  &trans  &trans  &trans  &trans     &trans        &trans         &trans          &trans           &trans            &trans             &out OUT_BLE
-&grave_spc    &trans  &trans  &trans  &trans     &caret_spc    &none          &trans          &trans           &trans            &trans             &trans
-&trans        &trans  &trans  &trans  &trans     &trans        &kp F6         &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
-&trans        &trans  &trans  &trans  &trans     &trans        &kp F12        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                              &trans  &kp SPACE  &trans        &kp BACKSPACE  &kp SPACE       &kp RIGHT
-                                      &trans     &trans        &kp ESC        &kp RETURN
-=======
-&trans      &trans  &trans  &trans  &trans     &trans        &rgb_ug RGB_TOG  &trans          &trans           &trans            &trans             &trans
-&grave_spc  &trans  &trans  &trans  &trans     &caret_spc    &none            &trans          &trans           &trans            &trans             &trans
-&trans      &trans  &trans  &trans  &trans     &trans        &kp F6           &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
-&trans      &trans  &trans  &trans  &trans     &trans        &kp F12          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&out OUT_TOG      &trans  &trans  &trans  &trans     &trans        &rgb_ug RGB_TOG  &trans          &trans           &trans            &trans       &out OUT_BLE
+&grave_spc  	  &trans  &trans  &trans  &trans     &caret_spc    &none            &trans          &trans           &trans            &trans             &trans
+&trans            &trans  &trans  &trans  &trans     &trans        &kp F6           &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &trans
+&trans            &trans  &trans  &trans  &trans     &trans        &kp F12          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
                             &trans  &kp SPACE  &trans        &kp BACKSPACE    &kp SPACE       &kp RIGHT
                                     &trans     &trans        &kp ESC          &kp RETURN
->>>>>>> fc75ce8677b30a8d74cc9e8b9a652c8e438f76bc
             >;
         };
 
